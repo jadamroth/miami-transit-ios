@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08CBE2C51BA798F600D113DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CBE2C41BA798F600D113DB /* AppDelegate.swift */; };
+		08CBE2C71BA798F600D113DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CBE2C61BA798F600D113DB /* ViewController.swift */; };
+		08CBE2CA1BA798F600D113DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08CBE2C81BA798F600D113DB /* Main.storyboard */; };
+		08CBE2CC1BA798F600D113DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08CBE2CB1BA798F600D113DB /* Images.xcassets */; };
+		08CBE2CF1BA798F600D113DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08CBE2CD1BA798F600D113DB /* LaunchScreen.xib */; };
+		08CBE2DB1BA798F600D113DB /* Miami_TransitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CBE2DA1BA798F600D113DB /* Miami_TransitTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08CBE2D51BA798F600D113DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08CBE2B71BA798F600D113DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08CBE2BE1BA798F600D113DB;
+			remoteInfo = "Miami-Transit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08CBE2BF1BA798F600D113DB /* Miami-Transit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Miami-Transit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08CBE2C31BA798F600D113DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08CBE2C41BA798F600D113DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08CBE2C61BA798F600D113DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08CBE2C91BA798F600D113DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08CBE2CB1BA798F600D113DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		08CBE2CE1BA798F600D113DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		08CBE2D41BA798F600D113DB /* Miami-TransitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Miami-TransitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08CBE2D91BA798F600D113DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08CBE2DA1BA798F600D113DB /* Miami_TransitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Miami_TransitTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08CBE2BC1BA798F600D113DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08CBE2D11BA798F600D113DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08CBE2B61BA798F600D113DB = {
+			isa = PBXGroup;
+			children = (
+				08CBE2C11BA798F600D113DB /* Miami-Transit */,
+				08CBE2D71BA798F600D113DB /* Miami-TransitTests */,
+				08CBE2C01BA798F600D113DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08CBE2C01BA798F600D113DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08CBE2BF1BA798F600D113DB /* Miami-Transit.app */,
+				08CBE2D41BA798F600D113DB /* Miami-TransitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08CBE2C11BA798F600D113DB /* Miami-Transit */ = {
+			isa = PBXGroup;
+			children = (
+				08CBE2C41BA798F600D113DB /* AppDelegate.swift */,
+				08CBE2C61BA798F600D113DB /* ViewController.swift */,
+				08CBE2C81BA798F600D113DB /* Main.storyboard */,
+				08CBE2CB1BA798F600D113DB /* Images.xcassets */,
+				08CBE2CD1BA798F600D113DB /* LaunchScreen.xib */,
+				08CBE2C21BA798F600D113DB /* Supporting Files */,
+			);
+			path = "Miami-Transit";
+			sourceTree = "<group>";
+		};
+		08CBE2C21BA798F600D113DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08CBE2C31BA798F600D113DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08CBE2D71BA798F600D113DB /* Miami-TransitTests */ = {
+			isa = PBXGroup;
+			children = (
+				08CBE2DA1BA798F600D113DB /* Miami_TransitTests.swift */,
+				08CBE2D81BA798F600D113DB /* Supporting Files */,
+			);
+			path = "Miami-TransitTests";
+			sourceTree = "<group>";
+		};
+		08CBE2D81BA798F600D113DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08CBE2D91BA798F600D113DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08CBE2BE1BA798F600D113DB /* Miami-Transit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08CBE2DE1BA798F600D113DB /* Build configuration list for PBXNativeTarget "Miami-Transit" */;
+			buildPhases = (
+				08CBE2BB1BA798F600D113DB /* Sources */,
+				08CBE2BC1BA798F600D113DB /* Frameworks */,
+				08CBE2BD1BA798F600D113DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Miami-Transit";
+			productName = "Miami-Transit";
+			productReference = 08CBE2BF1BA798F600D113DB /* Miami-Transit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08CBE2D31BA798F600D113DB /* Miami-TransitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08CBE2E11BA798F600D113DB /* Build configuration list for PBXNativeTarget "Miami-TransitTests" */;
+			buildPhases = (
+				08CBE2D01BA798F600D113DB /* Sources */,
+				08CBE2D11BA798F600D113DB /* Frameworks */,
+				08CBE2D21BA798F600D113DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08CBE2D61BA798F600D113DB /* PBXTargetDependency */,
+			);
+			name = "Miami-TransitTests";
+			productName = "Miami-TransitTests";
+			productReference = 08CBE2D41BA798F600D113DB /* Miami-TransitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08CBE2B71BA798F600D113DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "James Roth";
+				TargetAttributes = {
+					08CBE2BE1BA798F600D113DB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					08CBE2D31BA798F600D113DB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 08CBE2BE1BA798F600D113DB;
+					};
+				};
+			};
+			buildConfigurationList = 08CBE2BA1BA798F600D113DB /* Build configuration list for PBXProject "Miami-Transit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08CBE2B61BA798F600D113DB;
+			productRefGroup = 08CBE2C01BA798F600D113DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08CBE2BE1BA798F600D113DB /* Miami-Transit */,
+				08CBE2D31BA798F600D113DB /* Miami-TransitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08CBE2BD1BA798F600D113DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08CBE2CA1BA798F600D113DB /* Main.storyboard in Resources */,
+				08CBE2CF1BA798F600D113DB /* LaunchScreen.xib in Resources */,
+				08CBE2CC1BA798F600D113DB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08CBE2D21BA798F600D113DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08CBE2BB1BA798F600D113DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08CBE2C71BA798F600D113DB /* ViewController.swift in Sources */,
+				08CBE2C51BA798F600D113DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08CBE2D01BA798F600D113DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08CBE2DB1BA798F600D113DB /* Miami_TransitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08CBE2D61BA798F600D113DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08CBE2BE1BA798F600D113DB /* Miami-Transit */;
+			targetProxy = 08CBE2D51BA798F600D113DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08CBE2C81BA798F600D113DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08CBE2C91BA798F600D113DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08CBE2CD1BA798F600D113DB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08CBE2CE1BA798F600D113DB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08CBE2DC1BA798F600D113DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08CBE2DD1BA798F600D113DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08CBE2DF1BA798F600D113DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Miami-Transit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		08CBE2E01BA798F600D113DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Miami-Transit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		08CBE2E21BA798F600D113DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Miami-TransitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Miami-Transit.app/Miami-Transit";
+			};
+			name = Debug;
+		};
+		08CBE2E31BA798F600D113DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Miami-TransitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Miami-Transit.app/Miami-Transit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08CBE2BA1BA798F600D113DB /* Build configuration list for PBXProject "Miami-Transit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08CBE2DC1BA798F600D113DB /* Debug */,
+				08CBE2DD1BA798F600D113DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08CBE2DE1BA798F600D113DB /* Build configuration list for PBXNativeTarget "Miami-Transit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08CBE2DF1BA798F600D113DB /* Debug */,
+				08CBE2E01BA798F600D113DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		08CBE2E11BA798F600D113DB /* Build configuration list for PBXNativeTarget "Miami-TransitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08CBE2E21BA798F600D113DB /* Debug */,
+				08CBE2E31BA798F600D113DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08CBE2B71BA798F600D113DB /* Project object */;
+}
